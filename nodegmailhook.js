@@ -4,8 +4,8 @@ var MailParser = require('mailparser').MailParser;
 var parser = new MailParser();
 
 var mailListener = new MailListener({
-  username: "letscreatetheapp@gmail.com",
-  password: "zhhbqmrleglrnhru",
+  username: "yourgmailid",
+  password: "apppassword", //should be your app password, which can be easily generated from your account
   host: "imap.gmail.com",
   port: 993,
   tls: true,
